@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/ylq016/hszz.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ylq016/hszz.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<html>
+  <head><title>会员查询</title></head>
+  <body>
+    <h1>仿findmima制作，简单数据库录入与查询</h1>
+     <div class="jumbotron">
+      <div  style="margin:0 auto;width: 1000px;"><br>
+			<div class="h6">
+			  <div class="jumbotron search-box">
+  <p><span class="input-group">
+    
+  </span><span class="input-group">
+  <select class="btn btn-success" id="match_act" name="match_act">
+    <option value="1" selected="">模糊查询</option>
+    <option value="2">精确查询</option>
+  </select>
+ 
+  <select class="btn btn-primary" id="select_act" name="select_act">
+    <option class="btn-group" value="3" selected="">姓名或日期</option>
+    <option  class="btn-group" value="1">姓名</option>
+    <option class="btn-group" value="2">日期</option>
+  </select>
+  </span></p>
+  <div id="jshint-pitch" class="alert alert-info scan-wait" style="display:none;margin-top:10px;font-size:14px">
+   
+  </div>
+  <div id="scan-result-box" style="font-size:12px;">
+    <div class="input-group"><span class="input-group-btn scan-but-span">
+      <button type="button" class="btn btn-success" onClick="getdata();">查询</button>
+      </span>
+      <input value="<?php echo date('Y-m-d');?>"  name="key" class="form-control" id="key" >
+    </div>
+</div>
+</body>
+</html>
