@@ -1,0 +1,7 @@
+港台,#genre#
+
+凤凰中文,http://202.168.187.208:9089/tsfile/live/1009_1.m3u8
+凤凰中文HD,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzw
+
+山东电视台,#genre#
+综艺,http://221.2.146.228:8888/newlive/live/hls/53/live.m3u8
