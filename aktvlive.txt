@@ -60,3 +60,24 @@ ZooMoo,http://aktv.top/AKTV/live/aktv3/zoomoo/AKTV.m3u8
 東方衛視國際頻道,http://aktv.top/AKTV/live/aktv3/null/AKTV.m3u8
 無線衛星新聞台,http://aktv.top/AKTV/live/aktv3/null-2/AKTV.m3u8
 翡翠台4K,http://aktv.top/AKTV/live/aktv3/4k/AKTV.m3u8
+test,#genre#
+#EXTINF:-1 tvg-id="Now直播台" tvg-name="Now直播台" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch331_160_115" group-title="", Now直播台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1e580dfa91d834a1b9eae0d39d92d078:3d96297d4cfa9ab2412deb4c2bd7e3fb
+https://now.v2ssr.xyz/now/331
+
+#EXTINF:-1 tvg-id="Now新聞台" tvg-name="Now新聞台" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch332_160_115" group-title="", Now新聞台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=013deaf416ea30c5ab3a72ecfe204a60:8ef440263496cec654704611e18243f4
+https://now.v2ssr.xyz/now/332
+
+#EXTINF:-1 tvg-id="Now財經台" tvg-name="Now財經台" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch333_160_115" group-title="", Now財經台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=92f32cfe2b0934fda1070d77f82a182f:66df5a15394345939387477a9b3b18f8
+https://now.v2ssr.xyz/now/333
